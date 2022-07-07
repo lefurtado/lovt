@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body {
+    font-family: Ropa Sans;
+}
+
+header {
+    width: 100%;
+    box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.main {
+    display: flex;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    font-size: 56px;
+    color: #777777;
+}
+
+.sub-logo {
+    color: #AAAAAA;
+    margin-top: 34px;
+    font-size: 16px;
+}
+
+.navbar img {
+    padding-left: 64vw;
+    padding-top: 30px;
+    width: 35px;
+}
+
+.imagem-principal {
+    border: solid 2px red;
+    margin: 40px 10%;
+}
+
+.imagem-principal #main-img {
+    display: flex;
+    /* position: absolute; */
+    /* width: 80%; */
+}
+
+.imagem-principal img{
+    width: 100%;
+}
+
+.elipse {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.elipse img {
+    border: solid 2px green;
+    position: relative;
+    width: 70px;
+    /* margin-top: 220px; */
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+}
+
+.container-principal {
+    /* border: solid 2px red; */
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.left-card-text, .right-card-text  {
+    font-size: 18px;
+    color: #555555;
+    /* border: solid 2px red; */
+    background-color: #EEEEEE;
+    width: 470px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: justify;
+}
+
+.text {
+    padding-top: 20px;
+}
+
+.left-card-img, .right-card-img {
+    position: relative;
+    box-sizing: border-box;
+    /* border: solid 2px red; */
+    width: 470px;
+}
+
+.left-card-img img, .right-card-img img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.preco {
+    display: flex;
+    justify-content: space-between;
+    color: #888888;
+    font-size: 40px;
+    /* border: solid 2px red; */
+}
+
+.card-new {
+    display: inline-block;
+    position: relative;
+}
+
+.card-new p{
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 15px;
+
+}
+.card-new img{
+    width: 100px;
+}
