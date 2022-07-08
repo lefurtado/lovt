@@ -219,12 +219,26 @@ footer {
 }
 
 .social_text {
-    font-size: 20px;
+    font-size: 25px;
     width: 400px;
     line-height: 2.5rem;
     letter-spacing: 1px;
 }
 
+article p {
+    line-height: 3rem;
+}
+
 .social_media h2 {
     margin-top: 25px;
+}
+
+.social_logo {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.social_logo img {
+    width: 50px;
 }
