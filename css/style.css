@@ -6,7 +6,7 @@ body {
 
 header {
     width: 100%;
-    box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.4);
 }
 
 .main {
@@ -15,8 +15,8 @@ header {
 
 .logo {
     margin-top: 20px;
-    margin-left: 10%;
     margin-bottom: 20px;
+    padding-left: 10%;
     font-size: 56px;
     color: #777777;
 }
@@ -25,27 +25,39 @@ header {
     color: #AAAAAA;
     margin-top: 34px;
     font-size: 16px;
+    padding-right: 65%;
 }
 
 .navbar img {
-    padding-left: 64vw;
     padding-top: 30px;
     width: 35px;
 }
 
 .imagem-principal {
-    border: solid 2px red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-image: url('/img/Rectangle1.svg');
     margin: 40px 10%;
+    padding: 0 30px;
+    height: 75vh;
 }
 
-.imagem-principal #main-img {
-    /* position: absolute; */
-    /* width: 80%; */
+.arrow-left,
+.arrow-right {
+    border: none;
+    background-color: rgba(141, 141, 141, 0.62);
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 400ms ease-in-out;
 }
 
-.imagem-principal img{
-    width: 100%;
-    position: relative;
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: rgba(141, 141, 141, 0.8);
 }
 
 .elipse {
@@ -57,9 +69,6 @@ header {
     border: solid 2px green;
     position: relative;
     width: 70px;
-    /* margin-top: 220px; */
-    /* margin-left: 20px; */
-    /* margin-right: 20px; */
 }
 
 .arrow {
@@ -72,16 +81,14 @@ header {
 }
 
 .container-principal {
-    /* border: solid 2px red; */
     display: flex;
     justify-content: space-evenly;
-    box-sizing: border-box;
 }
 
-.left-card-text, .right-card-text  {
+.left-card-text,
+.right-card-text {
     font-size: 18px;
     color: #555555;
-    /* border: solid 2px red; */
     background-color: #EEEEEE;
     width: 470px;
     height: 150px;
@@ -94,16 +101,16 @@ header {
     padding-top: 20px;
 }
 
-.left-card-img, .right-card-img {
-    position: relative;
-    box-sizing: border-box;
-    /* border: solid 2px red; */
+.left-card-img,
+.right-card-img {
     width: 470px;
+    margin-bottom: -4px;
 }
 
-.left-card-img img, .right-card-img img {
-    box-sizing: border-box;
+.left-card-img img,
+.right-card-img img {
     width: 100%;
+    height: 100%;
 }
 
 .preco {
@@ -111,7 +118,6 @@ header {
     justify-content: space-between;
     color: #888888;
     font-size: 40px;
-    /* border: solid 2px red; */
 }
 
 .card-new {
@@ -119,13 +125,14 @@ header {
     position: relative;
 }
 
-.card-new p{
+.card-new p {
     color: #ffffff;
     position: absolute;
     top: 0;
     right: 15px;
 
 }
-.card-new img{
+
+.card-new img {
     width: 100px;
 }
