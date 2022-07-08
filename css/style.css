@@ -50,8 +50,8 @@ header {
     border: none;
     background-color: rgba(141, 141, 141, 0.62);
     border-radius: 100%;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
     transition: 400ms ease-in-out;
 }
@@ -59,26 +59,6 @@ header {
 .arrow-left:hover,
 .arrow-right:hover {
     background-color: rgba(141, 141, 141, 0.8);
-}
-
-.elipse {
-    display: flex;
-    position: relative;
-}
-
-.elipse img {
-    border: solid 2px green;
-    position: relative;
-    width: 70px;
-}
-
-.arrow {
-    position: absolute;
-    top: 0;
-}
-
-.arrow img {
-    width: 30px;
 }
 
 .container-principal {
@@ -219,7 +199,8 @@ footer {
 }
 
 .social_text {
-    font-size: 25px;
+    margin-right: 20px;
+    font-size: 20px;
     width: 400px;
     line-height: 2.5rem;
     letter-spacing: 1px;
@@ -236,9 +217,9 @@ article p {
 .social_logo {
     display: flex;
     justify-content: space-between;
-    width: 220px;
+    width: 180px;
 }
 
 .social_logo img {
-    width: 50px;
+    width: 40px;
 }
