@@ -40,6 +40,7 @@ header {
     background-size: cover;
     background-image: url('/img/Rectangle1.svg');
     margin: 40px 10%;
+    margin-bottom: 60px;
     padding: 0 30px;
     height: 75vh;
 }
@@ -91,7 +92,7 @@ header {
     color: #555555;
     background-color: #EEEEEE;
     width: 470px;
-    height: 150px;
+    height: 170px;
     box-sizing: border-box;
     padding: 15px;
     text-align: justify;
@@ -135,4 +136,62 @@ header {
 
 .card-new img {
     width: 100px;
+}
+
+.style_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 10%;
+}
+
+.title_section {
+    color: #888888;
+    font-size: 48px;
+    margin-top: 40px;
+}
+
+.industrial {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/img/industrial.png');
+    background-size: cover;
+    height: 130px;
+    width: 1079px;
+}
+
+.industrial h2,
+.modern h2,
+.classic h2 {
+    margin-top: 40px;
+}
+
+.industrial,
+.modern,
+.classic {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.modern {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/img/modern.png');
+    background-size: cover;
+    height: 130px;
+    width: 1079px;
+}
+
+.classic {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/img/classic.png');
+    background-size: cover;
+    height: 130px;
+    width: 1079px;
 }
