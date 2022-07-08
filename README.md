@@ -1,4 +1,4 @@
-# Projeto LOVT para o curso Full Stack Web Developer - Digital House
+## Projeto LOVT para o curso Full Stack Web Developer - Digital House
 
 Desktop View
 								
