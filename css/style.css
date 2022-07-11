@@ -135,24 +135,15 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url('/img/industrial.png');
+    background-image: url('/img/industrial.svg');
     background-size: cover;
     height: 130px;
     width: 1079px;
 }
 
-.industrial h2,
-.modern h2,
-.classic h2 {
-    margin-top: 40px;
-}
-
 .industrial,
 .modern,
 .classic {
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-    font-size: 48px;
-    color: #ffffff;
     margin-top: 20px;
 }
 
@@ -160,7 +151,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url('/img/modern.png');
+    background-image: url('/img/modern.svg');
     background-size: cover;
     height: 130px;
     width: 1079px;
@@ -170,7 +161,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url('/img/classic.png');
+    background-image: url('/img/classic.svg');
     background-size: cover;
     height: 130px;
     width: 1079px;
