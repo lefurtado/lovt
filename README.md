@@ -2,4 +2,4 @@
 
 Desktop View
 								
-![alt text](https://github.com/lefurtado/lovt/blob/master/project_img/final.png)
+![alt text](https://github.com/lefurtado/lovt/blob/master/project_img/lovtfinal.png)
